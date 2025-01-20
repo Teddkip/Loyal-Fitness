@@ -1,0 +1,44 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title> HTML SUBMIT BUTTON  
+</title>  
+<meta name = "viewport" content = "width=device-width, initial-scale=1">  
+<style>  
+.main_div {  
+background-color: #F4F2F2;  
+height: 270px;  
+width: 300px;  
+border : 2px solid grey;  
+}  
+</style>  
+</head>  
+<body style="background-color: #496275;">
+     
+<h3> Get the HTML SUBMIT BUTTON </h3>  
+<h5>   
+we can use the javascript function after clicking the submit button  
+</h5>  
+<div class = "flex-containers">  
+<form>  
+  <label> User Name: </label>  
+  <input type = "text" id = "username" name = "username">  
+  <br><br>  
+  <label> Email: </label>  
+  <input type = "email" id = "email" name = "email">  
+  <br><br>  
+<label> Contact: </label>  
+  <input type = "text" id = "contact" name = "contact">  
+  <br><br>  
+  <center> <button type = "submit"  name = "submit_data" id="submit_data" onclick="return dataDisplay()">  Save Data </button> </center>  
+</form>   
+</div>  
+</div>  
+<script>  
+function dataDisplay(){  
+alert("the html submit button click successfully using button tag!!!!");  
+return true;  
+}  
+</script>  
+</body>  
+</html>  
